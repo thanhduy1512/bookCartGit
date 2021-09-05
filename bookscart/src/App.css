@@ -1,0 +1,450 @@
+/* Spinner CSS */
+
+.lds-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+/* HomePage CSS */
+
+.homePage {
+  background-color: #fcf4dd;
+}
+
+/* BigBackground CSS */
+
+.background {
+  display: flex;
+  justify-content: center;
+  background-image: url("http://localhost:3000/tikiLogo1.png");
+}
+
+.nav {
+  background-color: #c7e9f9;
+  display: flex;
+  width: 360px;
+  height: 80px;
+  justify-content: flex-end;
+}
+
+.nav .icon {
+  margin-right: 4px;
+  font-size: 13px;
+}
+
+.nav .rotate {
+  transform: rotate(270deg);
+}
+
+/* Unique Sale CSS */
+
+s {
+  color: #808089;
+}
+
+.row {
+  width: 360px;
+  padding: 16px 16px 16px 8px;
+}
+.row .book {
+  width: 160px;
+  height: 300px;
+  background-color: white;
+  margin: 0px 0px 8px 8px;
+  border-radius: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.row .book > img {
+  border: 8px solid #f7c65a;
+  border-radius: 7px;
+  width: 160px;
+  height: 160px;
+}
+
+.row .book p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.row .book .tikiNow {
+  width: 55.06px;
+  height: 16px;
+}
+
+.row .book .d-flex .starIcon {
+  color: #ffc400;
+  font-size: 8px;
+  margin-right: 1px;
+}
+
+.row .saleButton {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  width: 40px;
+  height: 24px;
+  line-height: 16px;
+  align-items: center;
+  background: #ff424f;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+/* SuperSale CSS */
+
+.row .superSaleBackGround {
+  background: #f7c65a;
+  margin: 0px 0px 0px 12px;
+  width: 360px;
+  height: 266px;
+  text-align: center;
+}
+.row h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 16px 0px 16px 0px;
+}
+.row .superSaleBook {
+  display: flex;
+  width: 328px;
+  height: 176px;
+  background: #ffffff;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.row .superSaleBook p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.row .superSaleBook .tikiNow {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 55.06px;
+  height: 16px;
+}
+
+.row .superSaleBook .d-flex .starIcon {
+  color: #ffc400;
+  font-size: 8px;
+  margin-right: 1px;
+}
+
+.row .superSaleBook > img {
+  border: 8px solid #f7c65a !important;
+  border-radius: 7px;
+  width: 160px !important;
+  height: 160px !important;
+  margin: 8px 8px 8px 8px;
+}
+
+.row .carousel-root .carousel .control-dots {
+  padding: 0px 0px 60px 0px;
+}
+
+.row .carousel-root .carousel .control-dots .dot {
+  width: 16px;
+  height: 2px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.row .carousel-root .carousel .control-dots .selected {
+  width: 24px;
+  height: 2px;
+  border-radius: 0px;
+  background: #fc820a;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.row .carousel-root .carousel {
+  width: 328px !important;
+  height: 266px !important;
+}
+
+/* Flash Sale CSS */
+
+.row .col-12 {
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+}
+.row .col-12 button {
+  background-color: #fcf4dd;
+  color: #808089;
+  border: 0px solid;
+  padding: 0px;
+  margin: 16px 0px 20px 0px;
+  width: 90px;
+  transition: all 0.1s;
+}
+
+.row .col-12 button:hover {
+  color: #fc820a;
+  border-bottom: 1px solid #fc820a;
+  cursor: pointer;
+}
+
+.row .col-12 .selected {
+  color: #fc820a;
+  border-bottom: 1px solid #fc820a;
+  cursor: pointer;
+}
+
+/* Bottom Bar CSS */
+
+.bottomBar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+.row .col-6 {
+  text-align: center;
+  border: none;
+  background-color: white;
+  color: #81818a;
+}
+
+.row .col-6:hover {
+  color: #fc820a;
+  cursor: pointer;
+}
+
+.row .col-6 .bottomBarIcons {
+  width: 16px;
+  height: 16px;
+  margin: 11px 0px 7px 0px;
+}
+
+.row .col-6 p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/* CartPage CSS */
+
+.navOrange {
+  background-color: #fc820a;
+  display: flex;
+  width: 360px;
+  height: 24px;
+  justify-content: flex-end;
+}
+
+.navOrange .icon {
+  margin-right: 4px;
+  font-size: 13px;
+}
+
+.navOrange .rotate {
+  transform: rotate(270deg);
+}
+
+.gioHangText {
+  height: 56px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  background-color: #fc820a;
+  padding: 16px 0px 16px 16px;
+}
+
+.detailCart {
+  background-color: #e5e5e5;
+  margin: -8px 0px 0px 0px;
+  min-height: 500px;
+}
+
+.detailCart > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  height: 40px;
+  margin-bottom: 0px;
+  padding: 10px 0px 0px 16px;
+}
+
+.detailCart .productCart {
+  width: 328px;
+  color: white;
+  background-color: white;
+  margin: 0px 0px 0px 16px;
+  border-radius: 8px;
+}
+
+/* Product In Cart CSS */
+
+.detailCart .productCart .deleteButton {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 4px 0px 0px 300px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: #ebebf0;
+  transition: all 0.3s;
+}
+
+.detailCart .productCart .deleteButton:hover {
+  background-color: #ff4d4d;
+}
+
+.detailCart .productCart .product {
+  height: 128px;
+}
+
+.detailCart .productCart .productImg {
+  width: 40px;
+  height: 40px;
+  margin: 0px 16px 0px 16px;
+  padding: 0px;
+}
+
+.detailCart .productCart p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 0px;
+  display: contents;
+}
+
+.detailCart .productCart s {
+  font-size: 10px;
+}
+
+.detailCart .productCart span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1a94ff;
+  margin: -16px 0px -20px 58px;
+}
+
+.detailCart .productCart .quantityButtons {
+  padding-left: 66px;
+}
+
+.detailCart .productCart .quantityButtons .updateQuantityButtons:hover {
+  color: #1a94ff;
+  border: 1px solid #1a94ff;
+}
+
+.detailCart .productCart .quantityButtons button {
+  background-color: white;
+  border: 1px solid #808089;
+  color: #808089;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  margin: 0px 2px 0px 0px;
+}
+
+/* Calculator  CSS */
+
+.detailCart .calDiv .calText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+  text-align: left;
+}
+
+.detailCart .calDiv .calNumb {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #28282b;
+}
+
+.detailCart .calDiv {
+  margin: 0px 0px 149px 0px;
+  width: 328px;
+}
+
+/* Payment Bar CSS */
+
+.detailCart .paymentBar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 56px;
+  width: 360px;
+  z-index: 99;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+}
+
+.detailCart .paymentBar .row {
+  margin: 0px;
+  padding: 0;
+  background-color: white;
+  padding-top: 8px;
+}
+
+.detailCart .paymentBar .row .col-6 {
+  color: black;
+}
+
+.detailCart .paymentBar .row .col-6:hover {
+  color: black;
+}
+
+.detailCart .paymentBar .thanhToan {
+  background: #fc820a;
+  color: white;
+  border-radius: 20px;
+  width: 328px;
+  height: 40px;
+  margin: 8px 0px 8px 16px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.detailCart .paymentBar .thanhToan:hover {
+  opacity: 0.7;
+}
